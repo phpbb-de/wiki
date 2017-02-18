@@ -9,3 +9,7 @@ th.big{width:300px;}
 .version-icon:hover:before {background-position: 0 -20px;}
 .topic-icon:before{background-position: -192px 0;}
 .topic-icon:hover:before{background-position: -192px -20px;}
+
+body[class~="section-app/kb/"] ul.topiclist dd {
+	padding-left: 1em !important; 
+}
