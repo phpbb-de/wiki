@@ -32,7 +32,7 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 $lang = array_merge($lang, array(
-	'WIKI'						=> 'Wiki',
-	'WIKI_NEW_ARTICLE_UPDATE'	=> 'Ein neue Version zum Artikel <strong>%1$s</strong> im Wiki wartet auf freischaltung.',
+	'WIKI'						=> 'KB',
+	'WIKI_NEW_ARTICLE_UPDATE'	=> 'Ein neue Version zum Artikel <strong>%1$s</strong> in der KB wartet auf Freischaltung.',
 
 ));

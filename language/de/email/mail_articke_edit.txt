@@ -1,4 +1,4 @@
-Subject: „{SITENAME}“ — Neuer Artikel im Wiki
+Subject: „{SITENAME}“ — Neuer Artikel in der KB
 
 Hallo,
 

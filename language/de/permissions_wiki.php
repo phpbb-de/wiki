@@ -33,8 +33,8 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 $lang = array_merge($lang, array(
-	'ACL_U_WIKI_VIEW'				=> 'Kann Artikel im Wiki anschauen',
-	'ACL_U_WIKI_EDIT'				=> 'Kann Artikel im Wiki bearbeiten und anlegen',
+	'ACL_U_WIKI_VIEW'				=> 'Kann Artikel in KB anschauen',
+	'ACL_U_WIKI_EDIT'				=> 'Kann Artikel in KB bearbeiten und anlegen',
 	'ACL_U_WIKI_VERSIONS'			=> 'Kann Versionen eines Artikels anschauen',
 	'ACL_M_WIKI_DELETE'				=> 'Kann Versionen eines Artikels löschen',
 	'ACL_M_WIKI_DELETE_ARTICLE'		=> 'Kann einen kompletten Artikel löschen',
@@ -43,5 +43,5 @@ $lang = array_merge($lang, array(
 	'ACL_U_WIKI_SET_ACTIVE'			=> 'Kann die aktive Version eines Artikels ändern',
 	'ACL_U_WIKI_SET_STICKY'			=> 'Kann einen Artikel als wichtig markieren',
 	'ACL_U_WIKI_SET_REDIRECT'		=> 'Kann eine Weiterleitung in einem Artikel einrichten',
-	'ACL_CAT_WIKI'					=> 'Wiki',
+	'ACL_CAT_WIKI'					=> 'KB',
 ));
