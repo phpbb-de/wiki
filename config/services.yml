@@ -110,3 +110,12 @@ services:
             - %tables.user_notifications%
         tags:
             - { name: notification.type }
+    tas2580.wiki.text_reparser.article_text:
+        class: tas2580\wiki\textreparser\plugins\article_text
+        arguments:
+            - '@dbal.conn'
+            - '%tables.wiki.article%'
+        calls:
+            - [set_name, [tas2580_wiki_article]]
+        tags:
+            - { name: text_reparser.plugin}
