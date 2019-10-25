@@ -152,6 +152,6 @@ class articke_edit extends \phpbb\notification\type\base
 		$this->set_data('user_id', $notification_data['user_id']);
 		$this->set_data('article_title', $notification_data['article_title']);
 		$this->set_data('article_url', $notification_data['article_url']);
-		return parent::create_insert_array($notification_data, $pre_create_data);
+		parent::create_insert_array($notification_data, $pre_create_data);
 	}
 }
